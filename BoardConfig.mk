@@ -22,6 +22,9 @@ TARGET_HW_DISK_ENCRYPTION := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 BOARD_HAVE_QCOM_FM := true
 
+# Wifi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
