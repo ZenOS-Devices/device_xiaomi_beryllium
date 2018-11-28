@@ -28,5 +28,7 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
+TARGET_FACE_UNLOCK_CAMERA_ID := 5
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
