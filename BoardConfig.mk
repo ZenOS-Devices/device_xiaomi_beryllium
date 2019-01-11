@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -29,6 +29,12 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
+
+# Partitions
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
