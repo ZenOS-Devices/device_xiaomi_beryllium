@@ -26,7 +26,7 @@ BOARD_HAVE_QCOM_FM := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := beryllium_defconfig
+TARGET_KERNEL_CONFIG := kraken_defconfig
 
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
