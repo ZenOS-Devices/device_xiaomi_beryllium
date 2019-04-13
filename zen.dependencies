@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "StatiXOS/android_device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch": "9-caf"
+  }
+]
